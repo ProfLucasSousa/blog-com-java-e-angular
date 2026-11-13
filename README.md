@@ -5,10 +5,8 @@ Projeto de blog desenvolvido com Angular 10 no front-end e JSON Server como API 
 ## Estrutura
 
 ```text
-blog-com-java-e-angular-main/
-└── blog-master/
-    ├── backend/   # JSON Server
-    └── frontend/  # Angular 10
+backend/   # JSON Server
+frontend/  # Angular 10
 ```
 
 ## Pré-requisitos
@@ -19,7 +17,7 @@ blog-com-java-e-angular-main/
 ## Executar o back-end
 
 ```bash
-cd blog-com-java-e-angular-main/blog-master/backend
+cd backend
 npm install
 npm start
 ```
@@ -31,7 +29,7 @@ A API mockada fica em `http://localhost:3000`.
 Em outro terminal:
 
 ```bash
-cd blog-com-java-e-angular-main/blog-master/frontend
+cd frontend
 npm install
 npm start
 ```
@@ -46,4 +44,4 @@ O Angular serve a aplicação, normalmente, em `http://localhost:4200`.
 - Font Awesome
 - JSON Server
 
-Há READMEs antigos dentro das subpastas. Este arquivo descreve a estrutura que realmente está versionada na raiz.
+O projeto foi reorganizado para deixar `backend/` e `frontend/` diretamente na raiz.
